@@ -28,5 +28,6 @@ def kesha_maker(array)
     new_array << array.join("")
   end
   new_array
+end
     
   
