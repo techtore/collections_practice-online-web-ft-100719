@@ -18,6 +18,15 @@ end
 def reverse_array(array)
   new_array = array.reverse
   new_array
-  
 end
+
+def kesha_maker(array)
+  new_array = []
+  array = array.split("")
+  array.each do |char| 
+    char[2] = ("$")
+    new_array << array.join("")
+  end
+  new_array
+    
   
