@@ -22,10 +22,9 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array = array.split("")
   array.each do |char| 
     char[2] = ("$")
-    new_array << array.join("")
+    new_array << array
   end
   new_array
 end
