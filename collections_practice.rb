@@ -29,7 +29,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find{|i| i.first(a)}
+  array.find{|i| i.first("a")}
   
 end 
     
